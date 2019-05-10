@@ -384,6 +384,7 @@ Header
 .main-header__logo {
   color: #FFF;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 /**
