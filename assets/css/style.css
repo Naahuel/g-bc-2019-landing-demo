@@ -337,8 +337,12 @@ template {
   display: none;
 }
 
+*, *:after, *::before {
+  box-sizing: border-box;
+}
+
 .container {
-  max-width: 1440px;
+  max-width: 1140px;
   margin-right: auto;
   margin-left: auto;
   padding: 0 20px;
@@ -377,9 +381,16 @@ Header
   list-style: none;
 }
 .main-header__nav a {
+  display: block;
   color: #FFF;
   font-weight: bold;
-  padding: 1em;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 0.75rem;
+}
+.main-header__nav a:hover {
+  color: white;
 }
 .main-header__logo {
   color: #FFF;

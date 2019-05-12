@@ -32,9 +32,16 @@ Header
       list-style: none;
     }
     a{
+      display: block;
       color: #FFF;
       font-weight: bold;
-      padding: 1em;
+      font-size: .8em;
+      text-transform: uppercase;
+      color: rgba(white, 0.7);
+      padding: .75rem;
+      &:hover {
+        color: white;
+      }
     }
   }
 
