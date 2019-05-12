@@ -491,4 +491,15 @@ Articles
   flex-direction: row-reverse;
 }
 
+/**
+Footer
+*/
+.main-footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 3rem 0;
+  font-size: 0.8rem;
+}
+
 /*# sourceMappingURL=style.css.map */
