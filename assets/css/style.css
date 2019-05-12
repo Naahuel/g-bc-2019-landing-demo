@@ -502,4 +502,36 @@ Footer
   font-size: 0.8rem;
 }
 
+/**
+Media queries
+*/
+@media (max-width: 768px) {
+  /**
+  Intro section
+  */
+  .section__intro h1 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+  .section__intro h2 {
+    font-size: 3rem;
+    line-height: 3.1rem;
+  }
+
+  /**
+  Articles
+  */
+  .main-articles article {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .main-articles article figure {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .main-articles article:nth-child(even) {
+    flex-direction: column-reverse;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
