@@ -2,13 +2,25 @@
 @import 'normalize';
 @import 'layout';
 
+/**
+Generales
+*/
+html{
+  font-size: 16px;
+}
+
 body{
-  font-family: 'Muli', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 a{
   text-decoration: none;
   color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Catamaran', serif;
+  font-weight: 800;
 }
 
 /**
@@ -20,6 +32,7 @@ Header
   top: 0;
   left: 0;
   right: 0;
+  letter-spacing: .1em;
 
   .container{
     display: flex;
@@ -74,8 +87,6 @@ Intro section
   padding-top: calc(10rem + #{$height-top-bar});
   padding-bottom: 10rem;
   text-align: center;
-  // Sombra en el texto solo para mejorar legibilidad con el fondo
-  text-shadow: 0 0 0.3rem black;
   color: white;
   background: url(../images/main-background.jpg) 50% 50% no-repeat;
   background-size: cover;
