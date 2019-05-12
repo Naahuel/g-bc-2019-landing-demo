@@ -348,10 +348,6 @@ template {
   padding: 0 20px;
 }
 
-.main-container {
-  padding-top: 50px;
-}
-
 body {
   font-family: "Muli", sans-serif;
 }
@@ -396,6 +392,44 @@ Header
   color: #FFF;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+/**
+Buttons
+*/
+.button {
+  display: inline-block;
+  background-color: #ee0979;
+  color: white;
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-radius: 5rem;
+}
+
+/**
+Intro section
+*/
+.section__intro {
+  padding-top: calc(10rem + 70px);
+  padding-bottom: 10rem;
+  text-align: center;
+  text-shadow: 0 0 0.3rem black;
+  color: white;
+  background: url(../images/main-background.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+.section__intro h1 {
+  font-size: 6rem;
+  line-height: 8rem;
+  margin: 0;
+}
+.section__intro h2 {
+  font-size: 4rem;
+  line-height: 4.1rem;
+  margin: 0;
+  margin-bottom: 3rem;
 }
 
 /**
